@@ -1,9 +1,9 @@
 # Import necessary library(s)
 import functions as fn
 
-
-survey_file_loc_1 = "conjoint_survey_ads_prep.csv"
-survey_file_loc_2 = "conjoint_survey_organic_prep.csv"
+# Define the location of the data sources
+survey_file_loc_1 = "survey_ads.csv"
+survey_file_loc_2 = "survey_organic.csv"
 choices_file_loc = "questionnaire_choices.csv"
 
 # Import csv files as dataframe
