@@ -4,6 +4,15 @@ import pandas as pd
 
 # Define function to import csv as dataframe
 def csv_to_df(file_loc):
+    """Summary or Description of the Function
+
+    Parameters:
+    argument1 (int): Description of arg1
+
+    Returns:
+    int:Returning value
+
+   """
     df = pd.read_csv(file_loc)
     
     return df
